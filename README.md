@@ -22,6 +22,8 @@ We upload data on the examinations where the breathalyzer stage was present (due
 
 Here, grouped by PAC, we take data on the number of inspections for the same periods as in the first script (total for 2 periods), as well as data on the number of failures to pass, where the remarks column included the reason "Alcohol" for the period before and for the period after the start of the experiment. And here we need only the last attempts (and there can be only 3 of them within one inspection) that fit the above criteria, but, unfortunately, it will be difficult or almost impossible to do it within this database, so we take all attempts of drivers.
 
+### Paragraph 1
+
 As a result, after all the uploads and some manipulations with VLOOKUP, we get the following:
 ![image](https://github.com/CompilerCaster/long_blowing/assets/128957307/06ba8d07-8684-42c4-9f4d-7548532b80fe)
 
@@ -29,4 +31,28 @@ and this is data that can already be used for some kind of analysis:
 ![image](https://github.com/CompilerCaster/long_blowing/assets/128957307/63c843be-741a-485e-abd8-0ad98fd1d629)
 
 We see that there is very little data, and it is impossible to draw any hasty conclusions about the change in the %/percentage of non-admissions. It is also very good that these data are correctly compared with the daily reports that arrive in the mail every morning and report the number of non-admissions by companies and for reasons (including alcohol). That is, nothing much can be said here and it is worth continuing the experiment. But if the hypothesis is confirmed in the future, then it is worth removing the long purge, because it is important to us that, in compliance with the laws and norms of medical examination, customers, regardless of the health of their employees, have as large a percentage of admissions as possible, and there are minimum non-admissions. This has a very strong effect on customer loyalty (no one likes it when your employees can't go to work). Although it is worth noting that some large clients do not care about this (as for who does not care and who does not, I am also conducting an analysis).
+
+### Paragraph 2
+
+As a result, after all the uploads and some manipulations, we get the following:
+
+![image](https://github.com/CompilerCaster/long_blowing/assets/128957307/959fc4be-cdf5-4693-8f81-38c06384b7f4)
+
+and 
+
+![image](https://github.com/CompilerCaster/long_blowing/assets/128957307/422c95dc-d4ee-4168-82e9-192fdc6b957e)
+
+At the beginning, we will calculate the percentage of change in the total average time of inspections for all PACKS. How much percentage has changed in the total average time of inspections on a particular package:
+
+![image](https://github.com/CompilerCaster/long_blowing/assets/128957307/4be22610-956b-4004-b21c-00bba817c2dd)
+
+And now let's calculate how many percent of the average change has occurred:
+
+![image](https://github.com/CompilerCaster/long_blowing/assets/128957307/a39fd85b-b47a-47f1-9acf-aa1d25c65b8a)
+
+From this we can draw the final conclusion: A long purge increased the time of inspection by almost 6 percent on the driver's side. This figure is acceptable for us and if a long purge, depending on the current goal, will positively affect the tolerances or the health of drivers, then it should be left.
+
+
+
+
 
