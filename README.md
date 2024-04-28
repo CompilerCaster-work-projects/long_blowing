@@ -12,6 +12,8 @@ At the top level compare this:
 
 ## How to run and get results
 
+run ```script_for_time.sql```
+
 We upload data on the examinations where the breathalyzer stage was present (due to failures, canceled examinations, etc. it may not be present, although it would be important for us to know about these examinations as well (if the failure, cancellation, etc. but there is no way to find this out due to the structure of the documents, so we are satisfied with what we have) and calculate the total average time of these examinations on the part of the driver (i.e. time for taking the examination into work, time for checking the examination by a medic, etc. are not taken into account) with grouping by PAK for two periods:
 1. 20.11 - 08.12 
 2. 10.12 - 28.12, to see just how the average inspection time has changed.
