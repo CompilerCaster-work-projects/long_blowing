@@ -7,6 +7,6 @@ By default we have short blowdown enabled during breathalyzer testing (most clie
 2. The switch was forced as part of the quantitative breathalyzer test (long blow). The hypothesis is that the client may have difficulties with the long blow, which ultimately affects the % of under-admissions.; 
 
 At the top level compare this: 
-a) % of unavailability on average for a short blowout and for a long blowout. See what the difference is. If we can see the details of what exactly affects the % underruns - it will be useful. But if we realize at the top level that there is no influence, then there will be no texture to study/dig deeper into the details. 
-b) Inspection time timings - how much the total inspection time increases with a long blowout. 
+a) % of unavailability on average for a short blowout and for a long blowout. See what the difference is. If we can see the details of what exactly affects the % underruns - it will be useful. But if we realize at the top level that there is no influence, then there will be no texture to study/dig deeper into the details.; 
+b) Inspection time timings - how much the total inspection time increases with a long blowout.; 
 
