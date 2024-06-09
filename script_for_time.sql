@@ -95,4 +95,6 @@ db.inspections.aggregate([
 
 ])
 
+$$ language plpgsql;
+
 
